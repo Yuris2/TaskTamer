@@ -15,8 +15,7 @@ const operate = (num1, operator, num2) => {
     }else if (operator == "*") {
         return multiply(num1, num2)
     }else if (operator == "/") {
-        return divide(num1, num2)
-        
+        return divide(num1, num2) 
     }
 }
 //
