@@ -1,8 +1,9 @@
 import "./index.css"
+import Navbar from "./Navbar"
 
 function App() {
 
-  return "HI"
+  return <Navbar></Navbar>
 }
 
 export default App
