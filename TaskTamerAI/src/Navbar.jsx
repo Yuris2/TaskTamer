@@ -1,7 +1,15 @@
 import "./index.css"
+import OpenAILogo from './assets/openailogo.svg';
+
 
 function Navbar() {
-    return <h1>TaskTamerAI</h1>
+    return (
+        <div className = "navBar">
+        TaskTamerAI
+        <img src = {OpenAILogo}/>
+        </div>
+    );
+
 }
 
 export default Navbar
