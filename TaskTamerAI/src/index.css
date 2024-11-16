@@ -3,8 +3,15 @@ body {
 }
 
 /* Navbar Styling */
-
+.navBar {
+    font-size: 3.5rem;
+}
 #openailogo {
     max-width: 2rem;
     max-height: 2rem;
 }
+
+#openaicaption {
+    font-size: 1.3rem
+}
+

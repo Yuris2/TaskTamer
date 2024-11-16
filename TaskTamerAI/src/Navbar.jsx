@@ -8,7 +8,8 @@ function Navbar() {
             TaskTamerAI
             <div className = "openAIWrap">
                 <img id = "openailogo" src = {OpenAILogo}/>
-                Powered By OpenAI
+                <div id = "openaicaption">Powered By OpenAI</div>
+
             </div>
         </div>
     );
