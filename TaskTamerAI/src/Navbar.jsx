@@ -5,8 +5,11 @@ import OpenAILogo from './assets/openailogo.svg';
 function Navbar() {
     return (
         <div className = "navBar">
-        TaskTamerAI
-        <img src = {OpenAILogo}/>
+            TaskTamerAI
+            <div className = "openAIWrap">
+                <img id = "openailogo" src = {OpenAILogo}/>
+                Powered By OpenAI
+            </div>
         </div>
     );
 

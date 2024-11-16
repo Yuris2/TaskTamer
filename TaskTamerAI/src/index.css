@@ -1,3 +1,10 @@
 body {
     background-color: #EBEAEC;
 }
+
+/* Navbar Styling */
+
+#openailogo {
+    max-width: 2rem;
+    max-height: 2rem;
+}
