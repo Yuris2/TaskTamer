@@ -4,7 +4,13 @@ body {
 
 /* Navbar Styling */
 .navBar {
+    display: flex;
     font-size: 3.5rem;
+    justify-content: space-between;
+}
+.openAIWrap {
+    display: flex;
+    flex-direction: column;
 }
 #openailogo {
     max-width: 2rem;
