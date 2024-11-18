@@ -1,5 +1,5 @@
 import "./index.css"
-import OpenAILogo from './assets/openailogo.svg';
+import OpenAILogo from './assets/openai-logo.svg';
 
 
 function Navbar() {
@@ -7,8 +7,9 @@ function Navbar() {
         <div className = "navBar">
             TaskTamerAI
             <div className = "openAIWrap">
+                <div id = "openaicaption">Powered By</div>
                 <img id = "openailogo" src = {OpenAILogo}/>
-                <div id = "openaicaption">Powered By OpenAI</div>
+
 
             </div>
         </div>

@@ -10,14 +10,17 @@ body {
 }
 .openAIWrap {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #openailogo {
     max-width: 2rem;
     max-height: 2rem;
+    margin: auto;
 }
 
 #openaicaption {
-    font-size: 1.3rem
+    font-size: 1.3rem;
+    margin: auto;
 }
 
