@@ -1,5 +1,5 @@
 import "./index.css"
-import OpenAILogo from './assets/openai-logo.svg';
+import OpenAILogo from './assets/openAISVG.png';
 
 
 function Navbar() {
